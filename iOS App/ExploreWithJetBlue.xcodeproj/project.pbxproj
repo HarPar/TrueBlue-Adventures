@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA5D94BB1FD2789D00633832 /* DIN Medium.ttf in Sources */ = {isa = PBXBuildFile; fileRef = DA87CC301FD263680011FBCD /* DIN Medium.ttf */; };
+		DA5D94BC1FD278F800633832 /* DIN Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA87CC301FD263680011FBCD /* DIN Medium.ttf */; };
+		DA5D94C21FD2A44700633832 /* FlightChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5D94C11FD2A44700633832 /* FlightChooser.m */; };
+		DA5D94C71FD349D700633832 /* resetimage.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94C61FD349D600633832 /* resetimage.png */; };
+		DA5D94C91FD3D60D00633832 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94C81FD3D60D00633832 /* plane.png */; };
+		DA5D94CE1FD3D99C00633832 /* plane right.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94CA1FD3D99C00633832 /* plane right.png */; };
+		DA5D94CF1FD3D99C00633832 /* plane down.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94CB1FD3D99C00633832 /* plane down.png */; };
+		DA5D94D01FD3D99C00633832 /* plane up.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94CC1FD3D99C00633832 /* plane up.png */; };
+		DA5D94D11FD3D99C00633832 /* plane left.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5D94CD1FD3D99C00633832 /* plane left.png */; };
+		DA87CBFF1FD260F70011FBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87CBFE1FD260F70011FBCD /* AppDelegate.m */; };
+		DA87CC021FD260F70011FBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87CC011FD260F70011FBCD /* ViewController.m */; };
+		DA87CC051FD260F70011FBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA87CC031FD260F70011FBCD /* Main.storyboard */; };
+		DA87CC071FD260F70011FBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA87CC061FD260F70011FBCD /* Assets.xcassets */; };
+		DA87CC0A1FD260F70011FBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA87CC081FD260F70011FBCD /* LaunchScreen.storyboard */; };
+		DA87CC0D1FD260F70011FBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87CC0C1FD260F70011FBCD /* main.m */; };
+		DA87CC171FD260F70011FBCD /* ExploreWithJetBlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87CC161FD260F70011FBCD /* ExploreWithJetBlueTests.m */; };
+		DA87CC221FD260F70011FBCD /* ExploreWithJetBlueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87CC211FD260F70011FBCD /* ExploreWithJetBlueUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA87CC131FD260F70011FBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA87CBF21FD260F70011FBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA87CBF91FD260F70011FBCD;
+			remoteInfo = ExploreWithJetBlue;
+		};
+		DA87CC1E1FD260F70011FBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA87CBF21FD260F70011FBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA87CBF91FD260F70011FBCD;
+			remoteInfo = ExploreWithJetBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA5D94C01FD2A44700633832 /* FlightChooser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightChooser.h; sourceTree = "<group>"; };
+		DA5D94C11FD2A44700633832 /* FlightChooser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightChooser.m; sourceTree = "<group>"; };
+		DA5D94C61FD349D600633832 /* resetimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetimage.png; sourceTree = "<group>"; };
+		DA5D94C81FD3D60D00633832 /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		DA5D94CA1FD3D99C00633832 /* plane right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane right.png"; sourceTree = "<group>"; };
+		DA5D94CB1FD3D99C00633832 /* plane down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane down.png"; sourceTree = "<group>"; };
+		DA5D94CC1FD3D99C00633832 /* plane up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane up.png"; sourceTree = "<group>"; };
+		DA5D94CD1FD3D99C00633832 /* plane left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plane left.png"; sourceTree = "<group>"; };
+		DA87CBFA1FD260F70011FBCD /* ExploreWithJetBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreWithJetBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87CBFD1FD260F70011FBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA87CBFE1FD260F70011FBCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA87CC001FD260F70011FBCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA87CC011FD260F70011FBCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA87CC041FD260F70011FBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA87CC061FD260F70011FBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA87CC091FD260F70011FBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA87CC0B1FD260F70011FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87CC0C1FD260F70011FBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA87CC121FD260F70011FBCD /* ExploreWithJetBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreWithJetBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87CC161FD260F70011FBCD /* ExploreWithJetBlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreWithJetBlueTests.m; sourceTree = "<group>"; };
+		DA87CC181FD260F70011FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87CC1D1FD260F70011FBCD /* ExploreWithJetBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreWithJetBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA87CC211FD260F70011FBCD /* ExploreWithJetBlueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreWithJetBlueUITests.m; sourceTree = "<group>"; };
+		DA87CC231FD260F80011FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA87CC301FD263680011FBCD /* DIN Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA87CBF71FD260F70011FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC0F1FD260F70011FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC1A1FD260F70011FBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA87CBF11FD260F70011FBCD = {
+			isa = PBXGroup;
+			children = (
+				DA87CBFC1FD260F70011FBCD /* ExploreWithJetBlue */,
+				DA87CC151FD260F70011FBCD /* ExploreWithJetBlueTests */,
+				DA87CC201FD260F70011FBCD /* ExploreWithJetBlueUITests */,
+				DA87CBFB1FD260F70011FBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA87CBFB1FD260F70011FBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA87CBFA1FD260F70011FBCD /* ExploreWithJetBlue.app */,
+				DA87CC121FD260F70011FBCD /* ExploreWithJetBlueTests.xctest */,
+				DA87CC1D1FD260F70011FBCD /* ExploreWithJetBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA87CBFC1FD260F70011FBCD /* ExploreWithJetBlue */ = {
+			isa = PBXGroup;
+			children = (
+				DA87CBFD1FD260F70011FBCD /* AppDelegate.h */,
+				DA87CBFE1FD260F70011FBCD /* AppDelegate.m */,
+				DA87CC001FD260F70011FBCD /* ViewController.h */,
+				DA87CC011FD260F70011FBCD /* ViewController.m */,
+				DA5D94C01FD2A44700633832 /* FlightChooser.h */,
+				DA5D94C11FD2A44700633832 /* FlightChooser.m */,
+				DA87CC031FD260F70011FBCD /* Main.storyboard */,
+				DA87CC061FD260F70011FBCD /* Assets.xcassets */,
+				DA87CC081FD260F70011FBCD /* LaunchScreen.storyboard */,
+				DA87CC0B1FD260F70011FBCD /* Info.plist */,
+				DA87CC0C1FD260F70011FBCD /* main.m */,
+				DA5D94C81FD3D60D00633832 /* plane.png */,
+				DA5D94CB1FD3D99C00633832 /* plane down.png */,
+				DA5D94CD1FD3D99C00633832 /* plane left.png */,
+				DA5D94CA1FD3D99C00633832 /* plane right.png */,
+				DA5D94CC1FD3D99C00633832 /* plane up.png */,
+				DA87CC301FD263680011FBCD /* DIN Medium.ttf */,
+				DA5D94C61FD349D600633832 /* resetimage.png */,
+			);
+			path = ExploreWithJetBlue;
+			sourceTree = "<group>";
+		};
+		DA87CC151FD260F70011FBCD /* ExploreWithJetBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA87CC161FD260F70011FBCD /* ExploreWithJetBlueTests.m */,
+				DA87CC181FD260F70011FBCD /* Info.plist */,
+			);
+			path = ExploreWithJetBlueTests;
+			sourceTree = "<group>";
+		};
+		DA87CC201FD260F70011FBCD /* ExploreWithJetBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA87CC211FD260F70011FBCD /* ExploreWithJetBlueUITests.m */,
+				DA87CC231FD260F80011FBCD /* Info.plist */,
+			);
+			path = ExploreWithJetBlueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA87CBF91FD260F70011FBCD /* ExploreWithJetBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA87CC261FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlue" */;
+			buildPhases = (
+				DA87CBF61FD260F70011FBCD /* Sources */,
+				DA87CBF71FD260F70011FBCD /* Frameworks */,
+				DA87CBF81FD260F70011FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExploreWithJetBlue;
+			productName = ExploreWithJetBlue;
+			productReference = DA87CBFA1FD260F70011FBCD /* ExploreWithJetBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA87CC111FD260F70011FBCD /* ExploreWithJetBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA87CC291FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlueTests" */;
+			buildPhases = (
+				DA87CC0E1FD260F70011FBCD /* Sources */,
+				DA87CC0F1FD260F70011FBCD /* Frameworks */,
+				DA87CC101FD260F70011FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA87CC141FD260F70011FBCD /* PBXTargetDependency */,
+			);
+			name = ExploreWithJetBlueTests;
+			productName = ExploreWithJetBlueTests;
+			productReference = DA87CC121FD260F70011FBCD /* ExploreWithJetBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA87CC1C1FD260F70011FBCD /* ExploreWithJetBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA87CC2C1FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlueUITests" */;
+			buildPhases = (
+				DA87CC191FD260F70011FBCD /* Sources */,
+				DA87CC1A1FD260F70011FBCD /* Frameworks */,
+				DA87CC1B1FD260F70011FBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA87CC1F1FD260F70011FBCD /* PBXTargetDependency */,
+			);
+			name = ExploreWithJetBlueUITests;
+			productName = ExploreWithJetBlueUITests;
+			productReference = DA87CC1D1FD260F70011FBCD /* ExploreWithJetBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA87CBF21FD260F70011FBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YHACK17;
+				TargetAttributes = {
+					DA87CBF91FD260F70011FBCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DA87CC111FD260F70011FBCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA87CBF91FD260F70011FBCD;
+					};
+					DA87CC1C1FD260F70011FBCD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA87CBF91FD260F70011FBCD;
+					};
+				};
+			};
+			buildConfigurationList = DA87CBF51FD260F70011FBCD /* Build configuration list for PBXProject "ExploreWithJetBlue" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA87CBF11FD260F70011FBCD;
+			productRefGroup = DA87CBFB1FD260F70011FBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA87CBF91FD260F70011FBCD /* ExploreWithJetBlue */,
+				DA87CC111FD260F70011FBCD /* ExploreWithJetBlueTests */,
+				DA87CC1C1FD260F70011FBCD /* ExploreWithJetBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA87CBF81FD260F70011FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D94BC1FD278F800633832 /* DIN Medium.ttf in Resources */,
+				DA87CC0A1FD260F70011FBCD /* LaunchScreen.storyboard in Resources */,
+				DA5D94C91FD3D60D00633832 /* plane.png in Resources */,
+				DA5D94D11FD3D99C00633832 /* plane left.png in Resources */,
+				DA87CC071FD260F70011FBCD /* Assets.xcassets in Resources */,
+				DA5D94D01FD3D99C00633832 /* plane up.png in Resources */,
+				DA5D94CE1FD3D99C00633832 /* plane right.png in Resources */,
+				DA5D94CF1FD3D99C00633832 /* plane down.png in Resources */,
+				DA87CC051FD260F70011FBCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC101FD260F70011FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D94C71FD349D700633832 /* resetimage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC1B1FD260F70011FBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA87CBF61FD260F70011FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5D94C21FD2A44700633832 /* FlightChooser.m in Sources */,
+				DA5D94BB1FD2789D00633832 /* DIN Medium.ttf in Sources */,
+				DA87CC021FD260F70011FBCD /* ViewController.m in Sources */,
+				DA87CC0D1FD260F70011FBCD /* main.m in Sources */,
+				DA87CBFF1FD260F70011FBCD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC0E1FD260F70011FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA87CC171FD260F70011FBCD /* ExploreWithJetBlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87CC191FD260F70011FBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA87CC221FD260F70011FBCD /* ExploreWithJetBlueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA87CC141FD260F70011FBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA87CBF91FD260F70011FBCD /* ExploreWithJetBlue */;
+			targetProxy = DA87CC131FD260F70011FBCD /* PBXContainerItemProxy */;
+		};
+		DA87CC1F1FD260F70011FBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA87CBF91FD260F70011FBCD /* ExploreWithJetBlue */;
+			targetProxy = DA87CC1E1FD260F70011FBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA87CC031FD260F70011FBCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA87CC041FD260F70011FBCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA87CC081FD260F70011FBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA87CC091FD260F70011FBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA87CC241FD260F80011FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA87CC251FD260F80011FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA87CC271FD260F80011FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA87CC281FD260F80011FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA87CC2A1FD260F80011FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreWithJetBlue.app/ExploreWithJetBlue";
+			};
+			name = Debug;
+		};
+		DA87CC2B1FD260F80011FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreWithJetBlue.app/ExploreWithJetBlue";
+			};
+			name = Release;
+		};
+		DA87CC2D1FD260F80011FBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExploreWithJetBlue;
+			};
+			name = Debug;
+		};
+		DA87CC2E1FD260F80011FBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37LM8A7NV7;
+				INFOPLIST_FILE = ExploreWithJetBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YHACK17.ExploreWithJetBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExploreWithJetBlue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA87CBF51FD260F70011FBCD /* Build configuration list for PBXProject "ExploreWithJetBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA87CC241FD260F80011FBCD /* Debug */,
+				DA87CC251FD260F80011FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA87CC261FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA87CC271FD260F80011FBCD /* Debug */,
+				DA87CC281FD260F80011FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA87CC291FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA87CC2A1FD260F80011FBCD /* Debug */,
+				DA87CC2B1FD260F80011FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA87CC2C1FD260F80011FBCD /* Build configuration list for PBXNativeTarget "ExploreWithJetBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA87CC2D1FD260F80011FBCD /* Debug */,
+				DA87CC2E1FD260F80011FBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA87CBF21FD260F70011FBCD /* Project object */;
+}
